@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "nodemon src/server.js",
     "start": "node src/server.js",
+    "build": "node -e \"console.log('No build step needed for the API')\"",
     "test": "jest --runInBand",
     "seed": "node scripts/seed.js"
   },
