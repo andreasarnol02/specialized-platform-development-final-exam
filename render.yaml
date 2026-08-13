@@ -1,0 +1,22 @@
+# Render blueprint — My Skill API.
+# Create the service via: Render dashboard → New → Blueprint → pick this repo.
+# The API has no build step (plain Express); install deps and start directly.
+services:
+  - type: web
+    name: myskill-api
+    runtime: node
+    plan: free
+    rootDir: api
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: "22.22.0"
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_EXPIRES_IN
+        value: 7d
+      - key: CORS_ORIGINS
+        sync: false
