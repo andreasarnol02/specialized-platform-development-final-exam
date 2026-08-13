@@ -4,6 +4,16 @@ Platform pembelajaran praktik untuk siswa SMK bidang teknik. Wadah informasi has
 
 Proyek ini terdiri dari web client React/Vite, aplikasi mobile React Native/Expo, API Node.js/Express, dan database MongoDB.
 
+## Link Deployment
+
+| Bagian | Link |
+| --- | --- |
+| Frontend Web (Vercel) | https://web-final-project-specialized-platform.andreasarnol.com/ |
+| Backend API (Render) | https://api-web-final-project-specialized-platform.andreasarnol.com/ |
+| Mobile (Expo EAS) | https://expo.dev/accounts/andreasarnol02s-team/projects/my-skill/builds/e52e76bc-7094-4ddd-95c3-785eebdb025d |
+| Repository GitHub | https://github.com/andreasarnol02/specialized-platform-development-final-exam |
+| Figma UI | https://www.figma.com/design/7MmpFTAbxNtROyWeozCwoy/Final-Exam?node-id=0-1&t=LF9rhTPmMw43vOQH-1 |
+
 ## Persyaratan
 
 - Node.js 22.22.0 atau lebih baru
